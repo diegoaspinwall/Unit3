@@ -7,4 +7,3 @@ num = int(input('Enter your favorite number: '))
 
 for i in range(0,num):
     print(word)
-

@@ -8,3 +8,4 @@ while True:
     print(text)
     if text == 'something':
         break
+print('You win')

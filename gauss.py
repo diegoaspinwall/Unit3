@@ -6,7 +6,7 @@ lower = int(input('Enter lower number: '))
 higher = int(input('Enter upper number: '))
 dist = int(input('Enter the difference between each number: '))
 
-total = lower
+total = 0
 
 for i in range(lower,higher+1,dist):
     total = total + i

@@ -36,6 +36,6 @@ while True:
     elif num=='quit':
         break
     else:
-        print('Please check spelling BOI. You cant even spell a number.')
+        print('Please check spelling BOI. You cant even spell a number. ROASTED')
         print(' ')
         print(' ')

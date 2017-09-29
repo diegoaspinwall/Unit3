@@ -22,6 +22,7 @@ while i<=10:
         if weekday(yNow+y, mNow+m,13)==4:
             print(mNow+m, '13', yNow)
             i+=1
+    m=0
     y+=1
     
 

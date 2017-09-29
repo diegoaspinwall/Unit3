@@ -11,7 +11,7 @@ while i<=guess:
     if guess%i==0:
         total+=i
 """
-for i in range(2,guess):
+for i in range(2,guess+1):
     if guess%i==0:
         total+=i
 if total==guess:

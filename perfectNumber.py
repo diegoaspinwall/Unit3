@@ -6,7 +6,7 @@ guess = int(input('Enter a number: '))
 total = 0
 
 i=0
-while i<num:
+while i<guess:
     i+=1
     if num%i==0:
         total+=i

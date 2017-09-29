@@ -2,7 +2,7 @@
 #9-29-17
 #warmup7.py
 
-num=0
+num=1
 i=0
 while i<=20:
     i+=1

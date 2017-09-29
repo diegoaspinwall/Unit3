@@ -14,6 +14,7 @@ y = 0
 m = 0
 i=0
 while i<=10:
-    while m!=12:
-        
+    
+    print(m, "13", y)
+
 print(yNow, mNow, dNow, wdnow)

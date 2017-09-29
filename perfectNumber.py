@@ -10,7 +10,7 @@ while i<guess:
     i+=1
     if guess%i==0:
         total+=i
-    if total==guess:
-        print('Perfect')
-    else:
-        print('Not Perfect')
+if total==guess:
+    print('Perfect')
+else:
+    print('Not Perfect')

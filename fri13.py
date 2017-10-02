@@ -19,7 +19,7 @@ if weekday(yNow,mNow,13)==4 and dNow<13:
     i+=1
 
 while i<=10:
-    if m<=12:
+    if m<12:
         m+=1
         """print('got here')
         break"""

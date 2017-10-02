@@ -6,7 +6,7 @@ centtotal = int(input('Input number of cents: '))
 
 quarters = 0
 while centtotal-25>25:
-    q+=1
+    quarters+=1
     centtotal=centtotal-25
 """
 dimes = d

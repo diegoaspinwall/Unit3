@@ -18,7 +18,7 @@ if weekday(yNow,mNow,13)==4 and dNow<13:
     print(mNow, '13', yNow)
     i+=1
 
-while i<=10:
+while i<10:
     if m<12:
         m+=1
         if weekday(y,m,13)==4:

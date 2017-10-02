@@ -8,7 +8,6 @@ from datetime import date
 yNow = date.today().year
 mNow = date.today().month
 dNow = date.today().day
-wdnow = weekday(yNow,mNow,dNow)
 
 y = yNow
 m = mNow

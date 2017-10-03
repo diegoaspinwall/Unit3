@@ -14,9 +14,9 @@ dig2 = (base10//16)%16
 
 ans = ''
 while totaldig>=0:
-    ans += base10/base
+    ans += base10//base
+    base10= base10%base
     totaldig=totaldig-1
-
-
+print(ans)
 print(base10, 'in base-',base, 'is', )
 print(totaldig)

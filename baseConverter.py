@@ -16,6 +16,7 @@ while totaldig>=0:
     base10= base10%base
     totaldig=totaldig-1
     power+=1
+
 print(ans)
 print(base10, 'in base-',base, 'is', )
 print(totaldig)

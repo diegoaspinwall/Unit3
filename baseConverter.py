@@ -12,7 +12,7 @@ power = 0
 ans = 0
 while num>0:
     ans += (num//base**power)%base
-    num = num-ans**base
+    num = num-#ans**base
     power+=1
     print(ans)
 

@@ -10,7 +10,7 @@ base = int(input('What base would you like to convert it to: '))
 totaldig = log10(num)/log10(base)+1"""
 
 power = 0
-ans = ''
+ans = 0
 while num>0:
     ans += (num//base**power)%base
     totaldig=totaldig-1

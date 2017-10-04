@@ -13,7 +13,8 @@ power = 0
 ans = 0
 while num>0:
     ans += (num//base**power)%base
-    totaldig=totaldig-1
+    ###totaldig=totaldig-1
+    num= num-((num//base**power)%base)
     power+=1
     print(ans)
 

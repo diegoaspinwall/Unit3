@@ -13,9 +13,8 @@ while num>0:
     ans += (num//base**power)%base
     num= num-ans**power
     power+=1
-    #print(ans)
-    break
+    print(ans)
 
-print(ans)
+#print(ans)
 print(num, 'in base-',base, 'is', )
 print(totaldig)

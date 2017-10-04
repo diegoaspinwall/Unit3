@@ -12,11 +12,9 @@ power = 0
 ans = 0
 while num>0:
     ans += (num//base**power)%base
-    num += -num//base**power
+    num += -ans**power
     power+=1
     print(ans)
     a=0
 
-#print(ans)
 print(num2, 'in base-',base, 'is', )
-print(totaldig)

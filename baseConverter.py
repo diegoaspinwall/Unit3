@@ -12,9 +12,9 @@ power = 0
 ans = 0
 while num>0:
     ans += (num//base**power)%base
-    num += -ans**power
+    num += -base**power
     power+=1
     print(ans)
-    a=0
+    ans=0
 
 print(num2, 'in base-',base, 'is', )

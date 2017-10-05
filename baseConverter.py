@@ -8,6 +8,7 @@ base = int(input('What base would you like to convert it to: '))
 num2=num
 power = 0
 ans = 0
+ans2= ''
 while num>0:
     ans += (num//base**power)%base
     num = num-ans*base**power
@@ -29,4 +30,6 @@ while num>0:
     ans=0
     
 
-print(num2, 'in base-',base, 'is', )
+print(num2, 'in base-',base, 'is', ans2)
+
+#answer+str(newthing)

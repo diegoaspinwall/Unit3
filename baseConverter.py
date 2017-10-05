@@ -14,19 +14,19 @@ while num>0:
     num = num-ans*base**power
     power += 1
     if ans == 10:
-        print('A')
+        ans2='A'+ans2
     elif ans == 11:
-        print('B')
+        ans2='B'+ans2
     elif ans == 12:
-        print('C')
+        ans2='C'+ans2
     elif ans == 13:
-        print('D')
+        ans2='D'+ans2
     elif ans == 14:
-        print('E')
+        ans2='E'+ans2
     elif ans == 15:
-        print('F')
+        ans2='F'+ans2
     else:
-        print(ans)
+        ans2= str(ans)+ans
     ans=0
     
 

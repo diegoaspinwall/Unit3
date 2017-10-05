@@ -13,7 +13,7 @@ dot2 = CircleAsset(10, LineStyle(1,blue), blue)
 for j in range(10): #prints the row 10 times
     for i in range(20): #prints one row of dots
         Sprite(dot, (20+50*i,20+50*j))
-for a in range(10):
-    for b in range(20):
+for a in range(9):
+    for b in range(19):
         Sprite(dot2, (45+50*b,45+50*a))
 App().run()

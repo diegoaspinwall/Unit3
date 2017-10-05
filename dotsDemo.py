@@ -12,9 +12,9 @@ dot = CircleAsset(20, LineStyle(1,red), red)
 dot2 = CircleAsset(10, LineStyle(1,blue), blue)
 square = RectangleAsset(40,40,LineStyle(1,green),green)
 
-for c in range(10):
-    for d in range (20):
-        Sprite(square, (20+50*d,20+50*c))
+for c in range(9):
+    for d in range (19):
+        Sprite(square, (25+50*d,25+50*c))
 for j in range(10): #prints the row 10 times
     for i in range(20): #prints one row of dots
         Sprite(dot, (20+50*i,20+50*j))

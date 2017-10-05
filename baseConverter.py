@@ -30,3 +30,5 @@ while num>0:
     
 
 print(num2, 'in base-',base, 'is', )
+
+highpower = 

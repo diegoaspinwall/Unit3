@@ -26,10 +26,8 @@ while num>0:
     elif ans == 15:
         ans2='F'+ans2
     else:
-        ans2= str(ans)+ans
+        ans2= str(ans)+ans2
     ans=0
     
 
 print(num2, 'in base-',base, 'is', ans2)
-
-#answer+str(newthing)

@@ -10,7 +10,7 @@ power = 0
 ans = 0
 while num>0:
     ans += (num//base**power)%base
-    num = num-ans**power
+    num = num-ans*base**power
     power += 1
     if ans == 10:
         print('A')

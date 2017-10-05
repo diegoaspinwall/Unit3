@@ -12,8 +12,8 @@ power = 0
 ans = 0
 while num>0:
     ans += (num//base**power)%base
-    num += -base**power
-    power+=1
+    num += -ans
+    power += 1
     print(ans)
     ans=0
 

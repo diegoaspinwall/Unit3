@@ -10,7 +10,7 @@ power = 0
 ans = 0
 while num>0:
     ans += (num//base**power)%base
-    num = num-ans
+    num = num-(ans//10)%10
     power += 1
     if ans == 10:
         print('A')
@@ -27,5 +27,6 @@ while num>0:
     else:
         print(ans)
     ans=0
+    
 
 print(num2, 'in base-',base, 'is', )

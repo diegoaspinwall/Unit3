@@ -8,4 +8,7 @@ j=18
 while j<=32:
     print(j)
     j+=2
-
+total=0
+for e in range(13,332,2):
+    total+=e
+print(total)
